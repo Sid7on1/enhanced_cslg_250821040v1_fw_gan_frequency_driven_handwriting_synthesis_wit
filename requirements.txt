@@ -1,0 +1,31 @@
+# requirements.txt
+
+# Core scientific computing stack
+numpy==1.23.3
+scipy==1.11.0
+pandas==1.5.2
+
+# Core ML stack
+torch==1.14.0
+torchvision==0.11.1
+
+# Data processing and visualization
+pillow==9.4.0
+matplotlib==3.6.0
+
+# Research paper specific requirements
+tqdm==4.64.0  # Progress bar
+opencv-python==4.5.5.64  # Computer vision and image processing
+
+# Testing and development
+pytest==7.1.2
+flake8==4.0.1
+black==21.12b0
+
+# Documentation
+sphinx==4.5.0
+sphinx-rtd-theme==1.0.0
+
+# Please ensure that all dependencies are compatible before installing.
+# Consider using a virtual environment to manage package versions.
+# This file is intended to be used with Python 3.9 or higher.
